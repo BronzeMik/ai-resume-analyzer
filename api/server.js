@@ -30,7 +30,9 @@ const extractTextFromPDF = (filePath) => {
     });
 };
 
-
+app.get('/', (req, res) => {
+    res.send('Server is running');
+});
 
 // Resume analysis endpoint
 app.post('/api/analyze', upload.single('resume'), async (req, res) => {
