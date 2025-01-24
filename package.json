@@ -5,9 +5,9 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js",
+    "start": "nodemon api/index.js",
     "vercel-build": "echo 'Build complete'",
-    "dev": "nodemon server.js"
+    "dev": "nodemon api/index.js"
   },
   "keywords": [],
   "author": "",
