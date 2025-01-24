@@ -6,7 +6,6 @@
   "type": "module",
   "scripts": {
     "start": "nodemon api/index.js",
-    "vercel-build": "echo 'Build complete'",
     "dev": "nodemon api/index.js"
   },
   "keywords": [],
