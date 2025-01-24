@@ -3,7 +3,7 @@ import multer from 'multer';
 import dotenv from 'dotenv';
 import cors from 'cors';
 import path from 'path';
-import openai from '../utils/openai.js';
+import openai from '../../utils/openai.js';
 import PDFParser from 'pdf2json';
 import fs from 'fs';
 
