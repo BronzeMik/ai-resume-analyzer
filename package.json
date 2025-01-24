@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "start": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "vercel-build": "echo 'Build complete'",
+    "dev": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
